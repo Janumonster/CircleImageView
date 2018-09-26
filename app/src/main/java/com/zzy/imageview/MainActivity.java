@@ -21,8 +21,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         imageView = findViewById(R.id.image_davinci);
         button = findViewById(R.id.button_imageview);
-//        Glide.with(this).load(R.drawable.davinci).into(imageView);
-        imageView.setmBackgroundCorlor("#000000");
+        Glide.with(this).load(R.drawable.davinci).into(imageView);
+//        imageView.setmBackgroundCorlor("#000000");
         button.setOnClickListener(this);
     }
 

@@ -19,7 +19,7 @@ public class VinciImageView extends android.support.v7.widget.AppCompatImageView
 
 
     private int mRadius = 20;
-    private int mBorderWidth = 10;
+    private int mBorderWidth = 0;
 
     private String mBorderColor = "#00000000";
     private String mBackgroundCorlor = "#00000000";
