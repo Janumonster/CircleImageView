@@ -80,7 +80,6 @@ public class VinciImageView extends android.support.v7.widget.AppCompatImageView
             }else {
                 canvas.drawBitmap(bitmap,(mRadius+1)/2,(mRadius)/2,mPaint);
             }
-
         }
 
         mPaint.reset();
